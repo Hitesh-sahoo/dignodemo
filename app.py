@@ -5,7 +5,7 @@ import time
 
 st.set_page_config(page_title="🏥Diagnoverse_ai", page_icon="🤖", layout="wide")
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+API_URL = os.getenv("API_URL", "https://diagnoverse-ai.onrender.com")
 
 st.markdown("""
 <style>
